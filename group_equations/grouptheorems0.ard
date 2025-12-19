@@ -1,0 +1,400 @@
+\lemma grequation0{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 : G): x11 = x11 => equation.group
+
+\lemma grequation1{G : Group}(x0 x1 x2 x3 x4 : G): (x4 G.* (G.inverse x4)) = ((x4 G.* (G.inverse x4)) G.* (x4 G.* (((G.inverse x4) G.* x1) G.* (G.inverse x1)))) => equation.group
+
+\lemma grequation2{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 : G): (((x7 G.* x0) G.* ((G.inverse x0) G.* (G.inverse x7))) G.* x9) = ((x9 G.* x0) G.* (G.inverse x0)) => equation.group
+
+\lemma grequation3{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 : G): G.ide = (((x6 G.* (G.inverse x6)) G.* x0) G.* (G.inverse x0)) => equation.group
+
+\lemma grequation4{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 : G): x9 = x9 => equation.group
+
+\lemma grequation5{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 : G): ((x9 G.* x8) G.* x6) = (x0 G.* (((x6 G.* (G.inverse x6)) G.* ((((G.inverse x0) G.* ((x9 G.* x8) G.* x6)) G.* ((G.inverse x6) G.* x6)) G.* x5)) G.* (G.inverse x5))) => equation.group
+
+\lemma grequation6{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 : G): ((x11 G.* (((G.inverse x11) G.* x0) G.* x5)) G.* ((((x9 G.* x3) G.* ((G.inverse x3) G.* (G.inverse x9))) G.* x9) G.* (((x3 G.* (x6 G.* (x8 G.* (G.inverse x8)))) G.* (G.inverse x6)) G.* ((G.inverse x3) G.* ((G.inverse x9) G.* (G.inverse x5)))))) = x0 => equation.group
+
+\lemma grequation7{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 : G): G.ide = (x1 G.* (G.inverse x1)) => equation.group
+
+\lemma grequation8{G : Group}(x0 x1 : G): x0 = (x1 G.* ((G.inverse x1) G.* x0)) => equation.group
+
+\lemma grequation9{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 : G): ((((x7 G.* (G.inverse x7)) G.* ((x8 G.* x12) G.* x3)) G.* (G.inverse x3)) G.* x12) = ((((x8 G.* (x12 G.* x12)) G.* (x8 G.* (x11 G.* x3))) G.* (G.inverse x3)) G.* ((G.inverse x11) G.* (G.inverse x8))) => equation.group
+
+\lemma grequation10{G : Group}(x0 x1 x2 x3 x4 x5 : G): x2 = x2 => equation.group
+
+\lemma grequation11{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 : G): ((((x7 G.* (G.inverse x7)) G.* x1) G.* ((G.inverse x1) G.* x1)) G.* x12) = (x1 G.* x12) => equation.group
+
+\lemma grequation12{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 : G): x11 = ((x2 G.* (G.inverse x2)) G.* x11) => equation.group
+
+\lemma grequation13{G : Group}(x0 x1 x2 x3 x4 x5 : G): (x5 G.* (((G.inverse x5) G.* (x4 G.* x0)) G.* ((((x5 G.* (G.inverse x5)) G.* (G.inverse x0)) G.* (G.inverse x4)) G.* x3))) = x3 => equation.group
+
+\lemma grequation14{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 : G): G.ide = (((x6 G.* (G.inverse x6)) G.* x1) G.* (G.inverse x1)) => equation.group
+
+\lemma grequation15{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 : G): x2 = (x2 G.* ((G.inverse x2) G.* x2)) => equation.group
+
+\lemma grequation16{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 : G): ((x3 G.* (((G.inverse x3) G.* x12) G.* (G.inverse x12))) G.* (x12 G.* (G.inverse x12))) = (x5 G.* (G.inverse x5)) => equation.group
+
+\lemma grequation17{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 : G): x0 = (((x10 G.* (G.inverse x10)) G.* (x8 G.* (G.inverse x8))) G.* ((x7 G.* (G.inverse x7)) G.* (x1 G.* ((G.inverse x1) G.* x0)))) => equation.group
+
+\lemma grequation18{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 : G): (x11 G.* (x0 G.* (x1 G.* ((G.inverse x1) G.* (x12 G.* (G.inverse x12)))))) = (x11 G.* x0) => equation.group
+
+\lemma grequation19{G : Group}(x0 x1 x2 x3 x4 x5 x6 : G): (x6 G.* (x0 G.* (G.inverse x0))) = ((x6 G.* x0) G.* (G.inverse x0)) => equation.group
+
+\lemma grequation20{G : Group}(x0 x1 x2 x3 x4 x5 : G): G.ide = (x4 G.* (G.inverse x4)) => equation.group
+
+\lemma grequation21{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 : G): x2 = x2 => equation.group
+
+\lemma grequation22{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 : G): (x4 G.* (((x6 G.* x4) G.* x8) G.* x3)) = (x4 G.* ((x6 G.* (((x4 G.* x8) G.* (x3 G.* x0)) G.* x2)) G.* ((G.inverse x2) G.* (G.inverse x0)))) => equation.group
+
+\lemma grequation23{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 : G): (x3 G.* (((((G.inverse x3) G.* x10) G.* (G.inverse x10)) G.* (x7 G.* x13)) G.* ((x10 G.* ((x1 G.* (x8 G.* (G.inverse x8))) G.* ((G.inverse x1) G.* (G.inverse x10)))) G.* (G.inverse x13)))) = x7 => equation.group
+
+\lemma grequation24{G : Group}(x0 x1 x2 x3 x4 x5 x6 : G): (((x3 G.* (G.inverse x3)) G.* x1) G.* (x4 G.* x4)) = ((x1 G.* x4) G.* x4) => equation.group
+
+\lemma grequation25{G : Group}(x0 x1 x2 x3 x4 x5 x6 : G): G.ide = ((x1 G.* ((G.inverse x1) G.* x3)) G.* (G.inverse x3)) => equation.group
+
+\lemma grequation26{G : Group}(x0 x1 : G): G.ide = (x0 G.* (G.inverse x0)) => equation.group
+
+\lemma grequation27{G : Group}(x0 x1 x2 x3 x4 : G): G.ide = (x4 G.* (G.inverse x4)) => equation.group
+
+\lemma grequation28{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 : G): (x5 G.* x5) = ((x8 G.* (x9 G.* ((G.inverse x9) G.* (G.inverse x8)))) G.* (x5 G.* x5)) => equation.group
+
+\lemma grequation29{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 : G): G.ide = (x4 G.* (G.inverse x4)) => equation.group
+
+\lemma grequation30{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 : G): ((x14 G.* (G.inverse x14)) G.* ((x13 G.* (G.inverse x13)) G.* x4)) = (((((x4 G.* x0) G.* (x10 G.* (G.inverse x10))) G.* x7) G.* (x3 G.* (G.inverse x3))) G.* (x1 G.* (((G.inverse x1) G.* (G.inverse x7)) G.* (G.inverse x0)))) => equation.group
+
+\lemma grequation31{G : Group}(x0 x1 : G): ((x1 G.* (G.inverse x1)) G.* (((x0 G.* (G.inverse x0)) G.* x0) G.* (G.inverse x0))) = (x1 G.* (G.inverse x1)) => equation.group
+
+\lemma grequation32{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 : G): G.ide = (x8 G.* (G.inverse x8)) => equation.group
+
+\lemma grequation33{G : Group}(x0 x1 x2 x3 x4 : G): (x3 G.* ((G.inverse x3) G.* x0)) = ((x4 G.* (G.inverse x4)) G.* ((x0 G.* (x3 G.* (G.inverse x3))) G.* (x2 G.* (G.inverse x2)))) => equation.group
+
+\lemma grequation34{G : Group}(x0 x1 x2 x3 : G): (((x1 G.* x0) G.* x3) G.* (G.inverse x3)) = ((x3 G.* ((G.inverse x3) G.* x1)) G.* x0) => equation.group
+
+\lemma grequation35{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 : G): G.ide = (x12 G.* (G.inverse x12)) => equation.group
+
+\lemma grequation36{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 : G): (((x4 G.* x7) G.* (G.inverse x7)) G.* (x0 G.* ((G.inverse x0) G.* x1))) = (x4 G.* x1) => equation.group
+
+\lemma grequation37{G : Group}(x0 x1 x2 : G): ((x2 G.* x2) G.* (G.inverse x2)) = ((x1 G.* (G.inverse x1)) G.* x2) => equation.group
+
+\lemma grequation38{G : Group}(x0 x1 x2 x3 x4 : G): ((x1 G.* ((x4 G.* (G.inverse x4)) G.* (G.inverse x1))) G.* ((x0 G.* (G.inverse x0)) G.* (x2 G.* x4))) = ((x2 G.* (x4 G.* x2)) G.* (G.inverse x2)) => equation.group
+
+\lemma grequation39{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 : G): x8 = x8 => equation.group
+
+\lemma grequation40{G : Group}(x0 x1 x2 x3 : G): G.ide = (x3 G.* (G.inverse x3)) => equation.group
+
+\lemma grequation41{G : Group}(x0 x1 x2 : G): x2 = x2 => equation.group
+
+\lemma grequation42{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 : G): x2 = x2 => equation.group
+
+\lemma grequation43{G : Group}(x0 x1 : G): x1 = x1 => equation.group
+
+\lemma grequation44{G : Group}(x0 x1 x2 x3 : G): G.ide = ((x3 G.* (x0 G.* x2)) G.* ((((x1 G.* x3) G.* x2) G.* ((G.inverse x2) G.* (G.inverse x3))) G.* ((((G.inverse x1) G.* (G.inverse x2)) G.* (G.inverse x0)) G.* (G.inverse x3)))) => equation.group
+
+\lemma grequation45{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 : G): (x7 G.* x0) = (x7 G.* x0) => equation.group
+
+\lemma grequation46{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 : G): x4 = ((x5 G.* (G.inverse x5)) G.* ((x5 G.* (G.inverse x5)) G.* x4)) => equation.group
+
+\lemma grequation47{G : Group}(x0 x1 x2 x3 x4 : G): G.ide = ((x3 G.* x0) G.* (((x1 G.* (x4 G.* (G.inverse x4))) G.* (G.inverse x1)) G.* (((G.inverse x0) G.* ((G.inverse x3) G.* x1)) G.* ((G.inverse x1) G.* (x4 G.* (G.inverse x4)))))) => equation.group
+
+\lemma grequation48{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 : G): ((x7 G.* ((G.inverse x7) G.* x7)) G.* (x4 G.* (G.inverse x4))) = ((x7 G.* x5) G.* ((G.inverse x5) G.* ((G.inverse x7) G.* x7))) => equation.group
+
+\lemma grequation49{G : Group}(x0 x1 : G): x1 = x1 => equation.group
+
+\lemma grequation50{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 : G): x8 = ((x8 G.* x14) G.* (G.inverse x14)) => equation.group
+
+\lemma grequation51{G : Group}(x0 x1 x2 x3 x4 x5 : G): (x3 G.* (G.inverse x3)) = (((((x5 G.* x4) G.* x2) G.* (x1 G.* ((G.inverse x1) G.* (G.inverse x2)))) G.* (((G.inverse x4) G.* x5) G.* (G.inverse x5))) G.* (G.inverse x5)) => equation.group
+
+\lemma grequation52{G : Group}(x0 x1 x2 x3 : G): (x1 G.* ((G.inverse x1) G.* x0)) = x0 => equation.group
+
+\lemma grequation53{G : Group}(x0 x1 x2 x3 : G): (x3 G.* ((G.inverse x3) G.* x1)) = x1 => equation.group
+
+\lemma grequation54{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 : G): x2 = x2 => equation.group
+
+\lemma grequation55{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 : G): ((x6 G.* (G.inverse x6)) G.* x7) = x7 => equation.group
+
+\lemma grequation56{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 : G): (x8 G.* x4) = (((x5 G.* (G.inverse x5)) G.* ((x6 G.* ((G.inverse x6) G.* x5)) G.* (G.inverse x5))) G.* ((x8 G.* x1) G.* ((G.inverse x1) G.* x4))) => equation.group
+
+\lemma grequation57{G : Group}(x0 x1 x2 x3 : G): G.ide = (((x2 G.* (G.inverse x2)) G.* x3) G.* (G.inverse x3)) => equation.group
+
+\lemma grequation58{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 : G): ((x1 G.* (x1 G.* ((x12 G.* (G.inverse x12)) G.* x8))) G.* ((((G.inverse x8) G.* x1) G.* x1) G.* ((x0 G.* x1) G.* x11))) = (((x1 G.* (((x1 G.* x1) G.* x1) G.* (x0 G.* x1))) G.* x2) G.* ((G.inverse x2) G.* x11)) => equation.group
+
+\lemma grequation59{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 : G): (x14 G.* ((G.inverse x14) G.* x7)) = (((x1 G.* ((G.inverse x1) G.* x9)) G.* (G.inverse x9)) G.* x7) => equation.group
+
+\lemma grequation60{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 : G): ((x4 G.* (G.inverse x4)) G.* x6) = ((x6 G.* x5) G.* (G.inverse x5)) => equation.group
+
+\lemma grequation61{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 : G): (x9 G.* ((x10 G.* (G.inverse x10)) G.* (((G.inverse x9) G.* (x6 G.* x6)) G.* x7))) = ((x6 G.* x10) G.* ((G.inverse x10) G.* (x6 G.* x7))) => equation.group
+
+\lemma grequation62{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 : G): (((x2 G.* (G.inverse x2)) G.* x3) G.* (((G.inverse x3) G.* x4) G.* (G.inverse x4))) = (x2 G.* (x8 G.* ((G.inverse x8) G.* (G.inverse x2)))) => equation.group
+
+\lemma grequation63{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 : G): G.ide = (((x4 G.* (x1 G.* x9)) G.* ((G.inverse x9) G.* (G.inverse x1))) G.* (G.inverse x4)) => equation.group
+
+\lemma grequation64{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 : G): x8 = (((x8 G.* x4) G.* (x2 G.* x7)) G.* (x6 G.* (((G.inverse x6) G.* (G.inverse x7)) G.* ((G.inverse x2) G.* (G.inverse x4))))) => equation.group
+
+\lemma grequation65{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 : G): (x3 G.* (G.inverse x3)) = ((((x2 G.* x8) G.* (G.inverse x8)) G.* ((G.inverse x2) G.* x8)) G.* (G.inverse x8)) => equation.group
+
+\lemma grequation66{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 : G): (x3 G.* ((G.inverse x3) G.* x7)) = x7 => equation.group
+
+\lemma grequation67{G : Group}(x0 x1 x2 x3 : G): G.ide = (x0 G.* ((x0 G.* (G.inverse x0)) G.* (G.inverse x0))) => equation.group
+
+\lemma grequation68{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 : G): (x1 G.* ((G.inverse x1) G.* (((x9 G.* (G.inverse x9)) G.* ((x1 G.* (G.inverse x1)) G.* (x1 G.* x3))) G.* x7))) = ((x1 G.* x3) G.* x7) => equation.group
+
+\lemma grequation69{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 : G): (x0 G.* (G.inverse x0)) = (x5 G.* (G.inverse x5)) => equation.group
+
+\lemma grequation70{G : Group}(x0 x1 : G): ((x0 G.* x0) G.* x1) = (((x0 G.* (G.inverse x0)) G.* x0) G.* ((((x0 G.* (x1 G.* x0)) G.* (G.inverse x0)) G.* (x0 G.* ((G.inverse x0) G.* x0))) G.* ((G.inverse x0) G.* (x0 G.* (G.inverse x0))))) => equation.group
+
+\lemma grequation71{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 : G): ((x5 G.* x0) G.* (G.inverse x0)) = x5 => equation.group
+
+\lemma grequation72{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 : G): (x3 G.* ((x2 G.* x2) G.* (G.inverse x2))) = ((((x7 G.* (G.inverse x7)) G.* x5) G.* ((G.inverse x5) G.* x3)) G.* x2) => equation.group
+
+\lemma grequation73{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 : G): ((x0 G.* (x3 G.* (G.inverse x3))) G.* ((G.inverse x0) G.* x6)) = x6 => equation.group
+
+\lemma grequation74{G : Group}(x0 x1 x2 x3 x4 x5 x6 : G): G.ide = (x2 G.* (G.inverse x2)) => equation.group
+
+\lemma grequation75{G : Group}(x0 x1 : G): (((x0 G.* ((G.inverse x0) G.* (x1 G.* x1))) G.* (G.inverse x1)) G.* ((((G.inverse x1) G.* x1) G.* ((G.inverse x1) G.* x0)) G.* (x0 G.* ((G.inverse x0) G.* ((G.inverse x0) G.* x0))))) = (((x0 G.* x0) G.* x1) G.* ((G.inverse x1) G.* (G.inverse x0))) => equation.group
+
+\lemma grequation76{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 : G): x7 = x7 => equation.group
+
+\lemma grequation77{G : Group}(x0 x1 x2 x3 : G): (((x3 G.* (x3 G.* (x3 G.* x3))) G.* x1) G.* (((x0 G.* (G.inverse x0)) G.* (x2 G.* ((G.inverse x2) G.* (G.inverse x1)))) G.* ((G.inverse x3) G.* ((G.inverse x3) G.* (G.inverse x3))))) = x3 => equation.group
+
+\lemma grequation78{G : Group}(x0 x1 x2 x3 x4 x5 x6 : G): (x1 G.* ((G.inverse x1) G.* x6)) = x6 => equation.group
+
+\lemma grequation79{G : Group}(x0 x1 x2 x3 x4 x5 x6 : G): G.ide = (((x3 G.* ((G.inverse x3) G.* x2)) G.* ((G.inverse x2) G.* x0)) G.* (G.inverse x0)) => equation.group
+
+\lemma grequation80{G : Group}(x0 x1 x2 : G): (x1 G.* x2) = ((x1 G.* x0) G.* ((G.inverse x0) G.* x2)) => equation.group
+
+\lemma grequation81{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 : G): G.ide = ((x2 G.* (((G.inverse x2) G.* x8) G.* (((G.inverse x8) G.* x3) G.* ((G.inverse x3) G.* x7)))) G.* (G.inverse x7)) => equation.group
+
+\lemma grequation82{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 : G): G.ide = ((x5 G.* ((G.inverse x5) G.* x14)) G.* (x8 G.* ((G.inverse x8) G.* (G.inverse x14)))) => equation.group
+
+\lemma grequation83{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 : G): (x5 G.* (G.inverse x5)) = (((x6 G.* ((G.inverse x6) G.* x10)) G.* x6) G.* ((((G.inverse x6) G.* (G.inverse x10)) G.* x10) G.* (G.inverse x10))) => equation.group
+
+\lemma grequation84{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 : G): G.ide = ((x1 G.* (G.inverse x1)) G.* (x8 G.* ((x7 G.* (G.inverse x7)) G.* (G.inverse x8)))) => equation.group
+
+\lemma grequation85{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 : G): (((x1 G.* (G.inverse x1)) G.* x0) G.* x0) = ((x0 G.* x8) G.* ((G.inverse x8) G.* x0)) => equation.group
+
+\lemma grequation86{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 : G): ((x6 G.* (G.inverse x6)) G.* x6) = x6 => equation.group
+
+\lemma grequation87{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 : G): G.ide = ((x12 G.* (G.inverse x12)) G.* (x9 G.* (G.inverse x9))) => equation.group
+
+\lemma grequation88{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 : G): ((x3 G.* (G.inverse x3)) G.* x5) = ((x5 G.* x5) G.* (x4 G.* ((G.inverse x4) G.* (G.inverse x5)))) => equation.group
+
+\lemma grequation89{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 : G): ((x12 G.* x6) G.* ((G.inverse x6) G.* x5)) = (x12 G.* x5) => equation.group
+
+\lemma grequation90{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 : G): (x0 G.* ((G.inverse x0) G.* x7)) = (x7 G.* ((G.inverse x7) G.* x7)) => equation.group
+
+\lemma grequation91{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 : G): (x7 G.* (((G.inverse x7) G.* x4) G.* (x8 G.* (G.inverse x8)))) = x4 => equation.group
+
+\lemma grequation92{G : Group}(x0 x1 x2 x3 x4 x5 : G): x1 = ((x1 G.* x4) G.* (G.inverse x4)) => equation.group
+
+\lemma grequation93{G : Group}(x0 x1 : G): (x0 G.* x1) = ((x0 G.* (x1 G.* (G.inverse x1))) G.* ((x1 G.* x0) G.* (G.inverse x0))) => equation.group
+
+\lemma grequation94{G : Group}(x0 x1 x2 x3 x4 x5 : G): (((x1 G.* (G.inverse x1)) G.* x5) G.* (x2 G.* (((((G.inverse x2) G.* x5) G.* (G.inverse x5)) G.* (G.inverse x5)) G.* ((x5 G.* x4) G.* (G.inverse x4))))) = x5 => equation.group
+
+\lemma grequation95{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 : G): x4 = x4 => equation.group
+
+\lemma grequation96{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 : G): (((x4 G.* (x0 G.* (G.inverse x0))) G.* x5) G.* (((G.inverse x5) G.* (G.inverse x4)) G.* (x0 G.* ((G.inverse x0) G.* x4)))) = x4 => equation.group
+
+\lemma grequation97{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 : G): (((x2 G.* x9) G.* x11) G.* (((x6 G.* (G.inverse x6)) G.* (G.inverse x11)) G.* ((x5 G.* x13) G.* ((G.inverse x13) G.* (G.inverse x5))))) = (x2 G.* x9) => equation.group
+
+\lemma grequation98{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 : G): G.ide = ((x6 G.* (x0 G.* (G.inverse x0))) G.* ((G.inverse x6) G.* ((x5 G.* (G.inverse x5)) G.* (x1 G.* (G.inverse x1))))) => equation.group
+
+\lemma grequation99{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 : G): x8 = x8 => equation.group
+
+\lemma grequation100{G : Group}(x0 x1 x2 x3 x4 x5 x6 : G): (x5 G.* ((G.inverse x5) G.* ((((x3 G.* (G.inverse x3)) G.* x4) G.* x0) G.* x4))) = (x4 G.* ((x0 G.* (x4 G.* x6)) G.* (G.inverse x6))) => equation.group
+
+\lemma grequation101{G : Group}(x0 x1 x2 : G): G.ide = ((((x0 G.* x0) G.* x2) G.* (G.inverse x2)) G.* ((G.inverse x0) G.* (G.inverse x0))) => equation.group
+
+\lemma grequation102{G : Group}(x0 x1 x2 x3 x4 : G): ((x3 G.* ((((G.inverse x3) G.* ((x2 G.* x1) G.* (G.inverse x1))) G.* (((G.inverse x2) G.* x0) G.* (G.inverse x0))) G.* (x4 G.* (x4 G.* x4)))) G.* (G.inverse x4)) = ((x4 G.* (x4 G.* x1)) G.* (G.inverse x1)) => equation.group
+
+\lemma grequation103{G : Group}(x0 x1 x2 x3 x4 x5 x6 : G): x1 = ((x1 G.* x6) G.* (G.inverse x6)) => equation.group
+
+\lemma grequation104{G : Group}(x0 x1 x2 x3 x4 x5 x6 : G): (x6 G.* (((G.inverse x6) G.* x2) G.* (x5 G.* (((G.inverse x5) G.* x5) G.* (G.inverse x5))))) = (x2 G.* (x3 G.* (G.inverse x3))) => equation.group
+
+\lemma grequation105{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 : G): ((x7 G.* x1) G.* (G.inverse x1)) = (x2 G.* ((x5 G.* ((G.inverse x5) G.* ((G.inverse x2) G.* (x7 G.* x4)))) G.* (G.inverse x4))) => equation.group
+
+\lemma grequation106{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 : G): G.ide = (((x5 G.* (G.inverse x5)) G.* (x3 G.* (G.inverse x3))) G.* (x8 G.* (G.inverse x8))) => equation.group
+
+\lemma grequation107{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 : G): (x2 G.* ((x7 G.* ((G.inverse x7) G.* (G.inverse x2))) G.* (x2 G.* x6))) = (((x2 G.* x6) G.* x3) G.* (G.inverse x3)) => equation.group
+
+\lemma grequation108{G : Group}(x0 x1 x2 x3 x4 : G): (x0 G.* x4) = (((x2 G.* x3) G.* (x0 G.* (G.inverse x0))) G.* ((((G.inverse x3) G.* (G.inverse x2)) G.* (x0 G.* x4)) G.* (x4 G.* (G.inverse x4)))) => equation.group
+
+\lemma grequation109{G : Group}(x0 x1 x2 x3 x4 : G): (x3 G.* (G.inverse x3)) = (x3 G.* (x0 G.* ((G.inverse x0) G.* (G.inverse x3)))) => equation.group
+
+\lemma grequation110{G : Group}(x0 x1 x2 x3 x4 x5 x6 : G): ((((x0 G.* ((G.inverse x0) G.* x2)) G.* (G.inverse x2)) G.* x0) G.* (G.inverse x0)) = (x0 G.* (G.inverse x0)) => equation.group
+
+\lemma grequation111{G : Group}(x0 x1 x2 x3 : G): (x3 G.* x1) = (x3 G.* x1) => equation.group
+
+\lemma grequation112{G : Group}(x0 x1 x2 x3 : G): (x0 G.* (x1 G.* (G.inverse x1))) = x0 => equation.group
+
+\lemma grequation113{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 : G): G.ide = (x3 G.* (G.inverse x3)) => equation.group
+
+\lemma grequation114{G : Group}(x0 x1 : G): G.ide = (((x1 G.* x0) G.* (((x0 G.* (G.inverse x0)) G.* ((x1 G.* x0) G.* (G.inverse x0))) G.* (x1 G.* (G.inverse x1)))) G.* ((G.inverse x1) G.* ((x1 G.* (G.inverse x1)) G.* (((G.inverse x0) G.* (G.inverse x1)) G.* (x1 G.* (G.inverse x1)))))) => equation.group
+
+\lemma grequation115{G : Group}(x0 x1 x2 x3 x4 x5 : G): x0 = x0 => equation.group
+
+\lemma grequation116{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 : G): ((x5 G.* (G.inverse x5)) G.* (x10 G.* (G.inverse x10))) = (x10 G.* (G.inverse x10)) => equation.group
+
+\lemma grequation117{G : Group}(x0 x1 x2 : G): G.ide = (x2 G.* (G.inverse x2)) => equation.group
+
+\lemma grequation118{G : Group}(x0 x1 x2 x3 x4 : G): (((x3 G.* (G.inverse x3)) G.* (x3 G.* x3)) G.* (G.inverse x3)) = ((x0 G.* x4) G.* ((x1 G.* (G.inverse x1)) G.* (((G.inverse x4) G.* (G.inverse x0)) G.* x3))) => equation.group
+
+\lemma grequation119{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 : G): x1 = (x1 G.* (x1 G.* (G.inverse x1))) => equation.group
+
+\lemma grequation120{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 : G): (x6 G.* x5) = ((x6 G.* x5) G.* ((x8 G.* (G.inverse x8)) G.* (x2 G.* (G.inverse x2)))) => equation.group
+
+\lemma grequation121{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 : G): x8 = x8 => equation.group
+
+\lemma grequation122{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 : G): (x1 G.* ((x9 G.* x3) G.* (G.inverse x3))) = (((x1 G.* x9) G.* x0) G.* ((x5 G.* (G.inverse x5)) G.* (G.inverse x0))) => equation.group
+
+\lemma grequation123{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 : G): x1 = x1 => equation.group
+
+\lemma grequation124{G : Group}(x0 x1 x2 x3 x4 x5 : G): (x5 G.* (G.inverse x5)) = (x5 G.* (G.inverse x5)) => equation.group
+
+\lemma grequation125{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 : G): G.ide = (((x9 G.* x11) G.* (G.inverse x11)) G.* (G.inverse x9)) => equation.group
+
+\lemma grequation126{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 : G): ((x0 G.* x1) G.* ((((G.inverse x1) G.* (x2 G.* (G.inverse x2))) G.* (G.inverse x0)) G.* x0)) = x0 => equation.group
+
+\lemma grequation127{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 : G): (((x8 G.* x1) G.* (x10 G.* ((G.inverse x10) G.* x0))) G.* (G.inverse x0)) = (((x0 G.* (x8 G.* (G.inverse x8))) G.* (((G.inverse x0) G.* x3) G.* ((G.inverse x3) G.* x8))) G.* ((x9 G.* (G.inverse x9)) G.* x1)) => equation.group
+
+\lemma grequation128{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 : G): x6 = x6 => equation.group
+
+\lemma grequation129{G : Group}(x0 x1 x2 x3 x4 x5 x6 : G): G.ide = (x1 G.* (G.inverse x1)) => equation.group
+
+\lemma grequation130{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 : G): ((x8 G.* ((x10 G.* (G.inverse x10)) G.* x3)) G.* (x10 G.* ((G.inverse x10) G.* (G.inverse x3)))) = x8 => equation.group
+
+\lemma grequation131{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 : G): ((x3 G.* x12) G.* (G.inverse x12)) = (((((x3 G.* (x1 G.* x1)) G.* (G.inverse x1)) G.* (G.inverse x1)) G.* x10) G.* (G.inverse x10)) => equation.group
+
+\lemma grequation132{G : Group}(x0 x1 x2 x3 x4 x5 : G): ((((x3 G.* (x0 G.* x3)) G.* (G.inverse x3)) G.* ((G.inverse x0) G.* x5)) G.* ((x5 G.* x1) G.* ((((G.inverse x1) G.* x4) G.* (G.inverse x4)) G.* (G.inverse x5)))) = (((x3 G.* x0) G.* ((G.inverse x0) G.* (x4 G.* (G.inverse x4)))) G.* x5) => equation.group
+
+\lemma grequation133{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 : G): (x2 G.* (G.inverse x2)) = (((x5 G.* x10) G.* ((G.inverse x10) G.* ((G.inverse x5) G.* x9))) G.* (G.inverse x9)) => equation.group
+
+\lemma grequation134{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 : G): (x7 G.* (G.inverse x7)) = (x8 G.* (((G.inverse x8) G.* x13) G.* (G.inverse x13))) => equation.group
+
+\lemma grequation135{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 : G): G.ide = (x1 G.* (G.inverse x1)) => equation.group
+
+\lemma grequation136{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 : G): G.ide = ((x6 G.* (G.inverse x6)) G.* (x10 G.* (G.inverse x10))) => equation.group
+
+\lemma grequation137{G : Group}(x0 x1 x2 x3 x4 x5 x6 : G): (x0 G.* x0) = (((x0 G.* x0) G.* x0) G.* ((x3 G.* (G.inverse x3)) G.* (G.inverse x0))) => equation.group
+
+\lemma grequation138{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 : G): x6 = ((x6 G.* x2) G.* (G.inverse x2)) => equation.group
+
+\lemma grequation139{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 : G): (x5 G.* (x3 G.* x6)) = ((x5 G.* ((x3 G.* x3) G.* (G.inverse x3))) G.* (x4 G.* ((G.inverse x4) G.* x6))) => equation.group
+
+\lemma grequation140{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 : G): (x7 G.* (G.inverse x7)) = (x3 G.* (G.inverse x3)) => equation.group
+
+\lemma grequation141{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 : G): ((x4 G.* (G.inverse x4)) G.* x7) = x7 => equation.group
+
+\lemma grequation142{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 : G): G.ide = (x2 G.* (G.inverse x2)) => equation.group
+
+\lemma grequation143{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 : G): G.ide = (x1 G.* (G.inverse x1)) => equation.group
+
+\lemma grequation144{G : Group}(x0 x1 x2 : G): x0 = x0 => equation.group
+
+\lemma grequation145{G : Group}(x0 x1 x2 x3 x4 : G): x0 = (x0 G.* ((x3 G.* x1) G.* ((G.inverse x1) G.* (G.inverse x3)))) => equation.group
+
+\lemma grequation146{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 : G): G.ide = (x1 G.* (G.inverse x1)) => equation.group
+
+\lemma grequation147{G : Group}(x0 x1 : G): x1 = (x1 G.* ((x1 G.* (x0 G.* (G.inverse x0))) G.* (G.inverse x1))) => equation.group
+
+\lemma grequation148{G : Group}(x0 x1 x2 : G): ((x2 G.* (G.inverse x2)) G.* (((x0 G.* (G.inverse x0)) G.* (x1 G.* x0)) G.* ((G.inverse x0) G.* (((G.inverse x1) G.* x1) G.* x1)))) = (((x1 G.* x1) G.* x2) G.* (x1 G.* ((G.inverse x1) G.* (G.inverse x2)))) => equation.group
+
+\lemma grequation149{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 : G): x9 = x9 => equation.group
+
+\lemma grequation150{G : Group}(x0 x1 x2 : G): x2 = x2 => equation.group
+
+\lemma grequation151{G : Group}(x0 x1 x2 x3 x4 : G): ((x3 G.* x0) G.* (((((G.inverse x0) G.* (G.inverse x3)) G.* x1) G.* x1) G.* (((G.inverse x1) G.* x4) G.* (x0 G.* (x3 G.* (G.inverse x3)))))) = ((x1 G.* x4) G.* (x0 G.* (x4 G.* (G.inverse x4)))) => equation.group
+
+\lemma grequation152{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 : G): ((x12 G.* (G.inverse x12)) G.* x3) = x3 => equation.group
+
+\lemma grequation153{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 : G): ((x7 G.* (((G.inverse x7) G.* x4) G.* (G.inverse x4))) G.* (x13 G.* x9)) = ((x7 G.* (((G.inverse x7) G.* x13) G.* x2)) G.* ((G.inverse x2) G.* x9)) => equation.group
+
+\lemma grequation154{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 : G): (x4 G.* ((x2 G.* x0) G.* x12)) = ((x4 G.* (x2 G.* (x0 G.* x12))) G.* (x9 G.* (x0 G.* (((G.inverse x0) G.* x12) G.* ((G.inverse x12) G.* (G.inverse x9)))))) => equation.group
+
+\lemma grequation155{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 : G): ((x7 G.* ((((G.inverse x7) G.* x11) G.* (x1 G.* x7)) G.* x10)) G.* ((G.inverse x10) G.* (G.inverse x7))) = (x11 G.* x1) => equation.group
+
+\lemma grequation156{G : Group}(x0 x1 x2 x3 x4 x5 : G): (x0 G.* (G.inverse x0)) = (x3 G.* (((G.inverse x3) G.* x1) G.* (G.inverse x1))) => equation.group
+
+\lemma grequation157{G : Group}(x0 x1 x2 : G): (x0 G.* (G.inverse x0)) = ((x0 G.* (G.inverse x0)) G.* (x2 G.* (G.inverse x2))) => equation.group
+
+\lemma grequation158{G : Group}(x0 x1 x2 x3 : G): ((x1 G.* x3) G.* (G.inverse x3)) = x1 => equation.group
+
+\lemma grequation159{G : Group}(x0 x1 : G): (x0 G.* (G.inverse x0)) = (x0 G.* (G.inverse x0)) => equation.group
+
+\lemma grequation160{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 : G): G.ide = (x2 G.* (G.inverse x2)) => equation.group
+
+\lemma grequation161{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 : G): ((x0 G.* ((G.inverse x0) G.* ((x2 G.* (G.inverse x2)) G.* x2))) G.* (G.inverse x2)) = (x1 G.* ((((x7 G.* (G.inverse x7)) G.* (G.inverse x1)) G.* (x3 G.* (x2 G.* (G.inverse x2)))) G.* (G.inverse x3))) => equation.group
+
+\lemma grequation162{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 : G): G.ide = (((x5 G.* x9) G.* (G.inverse x9)) G.* (((G.inverse x5) G.* ((x5 G.* (G.inverse x5)) G.* x2)) G.* ((G.inverse x2) G.* (x4 G.* (G.inverse x4))))) => equation.group
+
+\lemma grequation163{G : Group}(x0 x1 x2 x3 x4 x5 : G): G.ide = ((x2 G.* (x3 G.* (G.inverse x3))) G.* (G.inverse x2)) => equation.group
+
+\lemma grequation164{G : Group}(x0 x1 x2 x3 x4 : G): (x2 G.* ((G.inverse x2) G.* x0)) = ((((x1 G.* (G.inverse x1)) G.* x4) G.* (G.inverse x4)) G.* x0) => equation.group
+
+\lemma grequation165{G : Group}(x0 x1 : G): (((x0 G.* x0) G.* (G.inverse x0)) G.* (x0 G.* (x1 G.* x1))) = ((x0 G.* (x0 G.* x1)) G.* x1) => equation.group
+
+\lemma grequation166{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 : G): (x0 G.* (((G.inverse x0) G.* (x3 G.* x0)) G.* (G.inverse x0))) = (((x3 G.* (x6 G.* x4)) G.* (((x6 G.* x6) G.* (G.inverse x6)) G.* ((G.inverse x6) G.* (G.inverse x4)))) G.* (G.inverse x6)) => equation.group
+
+\lemma grequation167{G : Group}(x0 x1 x2 x3 x4 : G): ((x0 G.* (x1 G.* x3)) G.* (x0 G.* x2)) = ((((x0 G.* x1) G.* (x3 G.* x2)) G.* (G.inverse x2)) G.* (((G.inverse x3) G.* (x3 G.* x0)) G.* x2)) => equation.group
+
+\lemma grequation168{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 : G): ((x5 G.* ((x4 G.* (G.inverse x4)) G.* (G.inverse x5))) G.* x7) = (((x3 G.* (G.inverse x3)) G.* (x1 G.* (G.inverse x1))) G.* x7) => equation.group
+
+\lemma grequation169{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 : G): (((x2 G.* (G.inverse x2)) G.* (x7 G.* (G.inverse x7))) G.* x2) = ((x9 G.* (G.inverse x9)) G.* ((x2 G.* x5) G.* (G.inverse x5))) => equation.group
+
+\lemma grequation170{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 : G): x5 = x5 => equation.group
+
+\lemma grequation171{G : Group}(x0 x1 x2 x3 x4 x5 x6 : G): x1 = ((x5 G.* x2) G.* ((G.inverse x2) G.* ((G.inverse x5) G.* x1))) => equation.group
+
+\lemma grequation172{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 : G): (x6 G.* x4) = (x6 G.* x4) => equation.group
+
+\lemma grequation173{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 : G): (x3 G.* ((G.inverse x3) G.* x3)) = ((x3 G.* x6) G.* (((((x1 G.* x8) G.* (G.inverse x8)) G.* (((x0 G.* (G.inverse x0)) G.* (G.inverse x1)) G.* (x4 G.* (G.inverse x4)))) G.* ((G.inverse x6) G.* ((x7 G.* x6) G.* (G.inverse x6)))) G.* (G.inverse x7))) => equation.group
+
+\lemma grequation174{G : Group}(x0 x1 x2 x3 x4 : G): x0 = ((x0 G.* (G.inverse x0)) G.* x0) => equation.group
+
+\lemma grequation175{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 : G): (((x4 G.* (G.inverse x4)) G.* x6) G.* (x3 G.* (G.inverse x3))) = x6 => equation.group
+
+\lemma grequation176{G : Group}(x0 x1 x2 x3 x4 x5 : G): (x0 G.* (G.inverse x0)) = ((x2 G.* ((((G.inverse x2) G.* (x1 G.* (G.inverse x1))) G.* (x2 G.* (G.inverse x2))) G.* ((x5 G.* (G.inverse x5)) G.* x0))) G.* ((((G.inverse x0) G.* x3) G.* x2) G.* ((G.inverse x2) G.* (G.inverse x3)))) => equation.group
+
+\lemma grequation177{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 : G): G.ide = ((x7 G.* (G.inverse x7)) G.* (((x9 G.* (G.inverse x9)) G.* x2) G.* (G.inverse x2))) => equation.group
+
+\lemma grequation178{G : Group}(x0 x1 x2 : G): x2 = x2 => equation.group
+
+\lemma grequation179{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 : G): (((x6 G.* (G.inverse x6)) G.* ((x3 G.* x7) G.* ((G.inverse x7) G.* ((G.inverse x3) G.* x0)))) G.* (x5 G.* (x4 G.* x7))) = ((((x0 G.* x5) G.* ((x4 G.* x4) G.* ((G.inverse x4) G.* x7))) G.* x4) G.* (G.inverse x4)) => equation.group
+
+\lemma grequation180{G : Group}(x0 x1 x2 x3 x4 x5 : G): ((x5 G.* (G.inverse x5)) G.* x4) = ((x3 G.* x1) G.* ((G.inverse x1) G.* ((G.inverse x3) G.* ((x2 G.* (G.inverse x2)) G.* x4)))) => equation.group
+
+\lemma grequation181{G : Group}(x0 x1 x2 x3 x4 x5 x6 : G): G.ide = ((x4 G.* (x6 G.* x2)) G.* ((x0 G.* (x5 G.* x5)) G.* ((((G.inverse x5) G.* (G.inverse x5)) G.* (((G.inverse x0) G.* ((G.inverse x2) G.* (G.inverse x6))) G.* (G.inverse x4))) G.* (x1 G.* (G.inverse x1))))) => equation.group
+
+\lemma grequation182{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 : G): G.ide = (x2 G.* (G.inverse x2)) => equation.group
+
+\lemma grequation183{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 : G): ((x4 G.* x0) G.* ((G.inverse x0) G.* (G.inverse x4))) = ((((x1 G.* (G.inverse x1)) G.* x0) G.* ((G.inverse x0) G.* x5)) G.* (((((G.inverse x5) G.* x1) G.* ((G.inverse x1) G.* ((x0 G.* (x0 G.* ((G.inverse x0) G.* (G.inverse x0)))) G.* (x4 G.* (G.inverse x4))))) G.* x0) G.* (G.inverse x0))) => equation.group
+
+\lemma grequation184{G : Group}(x0 x1 x2 x3 : G): G.ide = (((x2 G.* (G.inverse x2)) G.* x1) G.* ((x1 G.* (G.inverse x1)) G.* (G.inverse x1))) => equation.group
+
+\lemma grequation185{G : Group}(x0 x1 : G): G.ide = ((x1 G.* x0) G.* ((x1 G.* (G.inverse x1)) G.* ((G.inverse x0) G.* (G.inverse x1)))) => equation.group
+
+\lemma grequation186{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 : G): (x4 G.* (G.inverse x4)) = (x6 G.* (G.inverse x6)) => equation.group
+
+\lemma grequation187{G : Group}(x0 x1 : G): (x0 G.* ((x1 G.* (x0 G.* (((G.inverse x0) G.* x1) G.* ((G.inverse x1) G.* (G.inverse x1))))) G.* x1)) = (x1 G.* ((((G.inverse x1) G.* x0) G.* (x1 G.* x1)) G.* (G.inverse x1))) => equation.group
+
+\lemma grequation188{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 : G): G.ide = ((((x6 G.* (x1 G.* (G.inverse x1))) G.* (G.inverse x6)) G.* ((x11 G.* (G.inverse x11)) G.* x5)) G.* (G.inverse x5)) => equation.group
+
+\lemma grequation189{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 : G): ((x4 G.* ((G.inverse x4) G.* x8)) G.* (((G.inverse x8) G.* x9) G.* x9)) = ((x13 G.* ((G.inverse x13) G.* x13)) G.* (((G.inverse x13) G.* x9) G.* x9)) => equation.group
+
+\lemma grequation190{G : Group}(x0 x1 x2 x3 x4 x5 x6 : G): G.ide = (((x1 G.* x6) G.* ((x3 G.* x1) G.* ((x0 G.* (((G.inverse x0) G.* x0) G.* (((G.inverse x0) G.* (G.inverse x1)) G.* x3))) G.* (((G.inverse x3) G.* (G.inverse x3)) G.* (G.inverse x6))))) G.* (x3 G.* ((G.inverse x3) G.* (G.inverse x1)))) => equation.group
+
+\lemma grequation191{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 : G): G.ide = (x6 G.* (G.inverse x6)) => equation.group
+
+\lemma grequation192{G : Group}(x0 x1 x2 x3 x4 x5 : G): x3 = x3 => equation.group
+
+\lemma grequation193{G : Group}(x0 x1 x2 : G): ((((x1 G.* (G.inverse x1)) G.* x1) G.* ((((((G.inverse x1) G.* x0) G.* ((G.inverse x0) G.* (x1 G.* x0))) G.* (G.inverse x0)) G.* x0) G.* (G.inverse x0))) G.* ((((G.inverse x1) G.* x0) G.* (x0 G.* x0)) G.* ((G.inverse x0) G.* (G.inverse x0)))) = ((x0 G.* x1) G.* (G.inverse x1)) => equation.group
+
+\lemma grequation194{G : Group}(x0 x1 : G): ((x1 G.* (((G.inverse x1) G.* x1) G.* (G.inverse x1))) G.* x0) = x0 => equation.group
+
+\lemma grequation195{G : Group}(x0 x1 : G): (x1 G.* (G.inverse x1)) = ((x1 G.* (x0 G.* (G.inverse x0))) G.* (G.inverse x1)) => equation.group
+
+\lemma grequation196{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 : G): (x2 G.* ((x4 G.* x6) G.* (x0 G.* (((G.inverse x0) G.* (G.inverse x6)) G.* (G.inverse x4))))) = x2 => equation.group
+
+\lemma grequation197{G : Group}(x0 x1 x2 x3 x4 x5 : G): ((x3 G.* (G.inverse x3)) G.* x2) = (((x5 G.* x0) G.* (G.inverse x0)) G.* ((G.inverse x5) G.* x2)) => equation.group
+
+\lemma grequation198{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 : G): G.ide = (((((x10 G.* x3) G.* (G.inverse x3)) G.* ((G.inverse x10) G.* x9)) G.* (G.inverse x9)) G.* ((x8 G.* (G.inverse x8)) G.* (x4 G.* (G.inverse x4)))) => equation.group
+
+\lemma grequation199{G : Group}(x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 : G): x3 = x3 => equation.group
+

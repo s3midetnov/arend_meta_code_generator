@@ -48,7 +48,7 @@ def create_brackets (n_types) -> list:
 
 def print_brackets(n_types) -> str:
     brackets = create_brackets(n_types)
-    out_str = '{G : Group}( '
+    out_str = '{G : Group}('
     for bracket in brackets:
         out_str += bracket[0] + ' '
     out_str += ': G)'
@@ -74,16 +74,11 @@ def create_random_group_equation_std(n_types : int, bound_length : int= 100) -> 
 
     left_tree = random_group_tree(left_part)
     right_tree = random_group_tree(right_part)
-    left_expression  = tree_to_expression(left_tree) if left_tree else "1"
-    right_expression = tree_to_expression(right_tree) if right_tree else "1"
-    return f"({left_expression} = {right_expression})"
+    left_expression  = tree_to_expression(left_tree) if left_tree else "G.ide"
+    right_expression = tree_to_expression(right_tree) if right_tree else "G.ide"
+    return f"{left_expression} = {right_expression}"
 
-def create_random_arend_group_proof(n_types : int, bound_length : int = 100) -> str:
+def create_random_arend_group_proof(n_types : int, bound_length : int = 100, index: int = 0) -> str:
     equation = create_random_group_equation_std(n_types = n_types, bound_length = bound_length)
-    st =  r'''\func grequation''' + print_brackets(n_types) + ': ' + equation + ' => equation.group'
+    st =  r'''\lemma grequation''' + str(index) +  print_brackets(n_types) + ': ' + equation + ' => equation.group'
     return st
-
-
-if __name__ == '__main__':
-    for _ in range(15):
-        print(create_random_arend_group_proof(n_types = 3, bound_length = 5))

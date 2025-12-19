@@ -61,6 +61,8 @@ def tree_to_expression(tree):
         return ""
 
     if tree.is_leaf:
+        if tree.value[0] == "X":
+            return '(G.inverse x' + tree.value[1:] + ')'
         return str(tree.value)
 
     left_expr = tree_to_expression(tree.left) if tree.left else ""
